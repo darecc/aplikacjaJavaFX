@@ -1,0 +1,138 @@
+[
+  {
+    "imie": {
+      "name": "",
+      "value": "Janusz",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Monak",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 211,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Anna",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Nowak",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 171,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Roman",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Monak",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 177,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Alina",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Koperek",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 181,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Maria",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Zupka",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 174,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Rafał",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Nawrocki",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 188,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Adam",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Nawałka",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 181,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Janko",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Muzykant",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 166,
+      "valid": true
+    }
+  }
+]
