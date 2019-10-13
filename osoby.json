@@ -134,5 +134,39 @@
       "value": 166,
       "valid": true
     }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Alicja",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Nietoperek",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 172,
+      "valid": true
+    }
+  },
+  {
+    "imie": {
+      "name": "",
+      "value": "Zenon",
+      "valid": true
+    },
+    "nazwisko": {
+      "name": "",
+      "value": "Piechała",
+      "valid": true
+    },
+    "wzrost": {
+      "name": "",
+      "value": 174,
+      "valid": true
+    }
   }
 ]

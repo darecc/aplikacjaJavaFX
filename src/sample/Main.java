@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("okienko.fxml"));
         primaryStage.setTitle("Moje okienka - pierwsze kroki");
-        primaryStage.setScene(new Scene(root, 680, 575));
+        primaryStage.setScene(new Scene(root, 710, 575));
         primaryStage.show();
     }
 

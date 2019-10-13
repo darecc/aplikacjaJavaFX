@@ -43,6 +43,8 @@ public class Controller implements Initializable {
     @FXML
     TextField pNazwisko = new TextField();
     @FXML
+    TextArea text = new TextArea();
+    @FXML
     TextField pWzrost = new TextField();
     @FXML
     ComboBox combo = new ComboBox();
@@ -89,6 +91,9 @@ public class Controller implements Initializable {
         zapiszOsoby();
         */
         pokazDrzewko();
+        text.setText("Po pierwsze: klasa Osoba musi mieć pola innych typów niż dotąd miała (np. SingleIntProperty zamiast int)\n" +
+                "Po drugie: kontrolka TreeTableView musi mieć zdefiniowane 3 kolumny\n" +
+                "Po trzecie: należy wczytywać obiekty klasy Osoba do kolejnych wierszy TreeTableView.");
     }
     private void WczytajOsoby() {
         String napis = "";
@@ -122,7 +127,11 @@ public class Controller implements Initializable {
     @FXML
     public void pokazDrzewko() {
         root = new TreeItem<Osoba>(lista.get(0));
+        int i = 0;
         for(Osoba osoba : lista) {
+            i++;
+            if (i == 1)
+                continue;
             TreeItem<Osoba> item = new TreeItem<Osoba>(osoba);
             root.getChildren().addAll(item);
         }
@@ -138,7 +147,8 @@ public class Controller implements Initializable {
             wzrost = Integer.parseInt(pWzrost.getText());
         }
         catch(Exception ex) {
-            pokazKomunikat("Nieprawidłowa warotość wzrostu!");
+            pokazKomunikat("Nieprawidłowa wartość wzrostu!");
+            return;
         }
         Osoba o1 = new Osoba(imie, nazw, wzrost);
         lista.add(o1);
@@ -152,10 +162,11 @@ public class Controller implements Initializable {
         pWzrost.setText("");
     }
     public void pokazKomunikat(String komunikat) {
+        text.setText(text.getText() + "\n"+ komunikat);
         final Stage dialog = new Stage();
         dialog.setTitle(komunikat);
         dialog.initModality(Modality.APPLICATION_MODAL);
-        VBox layout= new VBox(new Text("Okienko pop up"));
+        VBox layout= new VBox(new Text("Komunikat!"));
         Scene scene1= new Scene(layout, 300, 250);
         dialog.setScene(scene1);
         dialog.showAndWait();
